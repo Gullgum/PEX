@@ -1,0 +1,111 @@
+groups:
+  Owner:
+    options:
+      prefix: '&b[&a&lOwner&b]&r' 
+      rank: '1'
+    permissions:
+    - '*'
+    inheritance:
+    - Co-Owner
+    
+  Co-Owner:
+    options:
+      prefix: '&5[&o&2Co-Owner&5]&r'
+      rank: '2'
+    permissions:
+
+    inheritance:
+    - Head-Admin
+  
+  Head-Admin
+    options
+      prefix: '&b[&6HeadAdmin&b]'
+      rank: '5'
+    permissions:
+    
+    inheritance:
+    - Admin
+
+  Admin:
+    options:
+      rank: '10'
+      prefix: '&6[&n&bAdmin&6]&r'
+    permissions:
+    -
+    inheritance:
+    -Helper
+    
+  Mod:
+    options:
+    rank: '20'
+    prefix: ''
+  permissions:
+  -
+  inheritance:
+  -Mod
+  
+  Helper:
+    options:
+    rank: '40'
+    prefix: ''
+  permissions:
+  -
+  inheritance:
+  -Builder
+  
+  Builder:
+    options:
+    rank: '80'
+    prefix: ''
+  permissions:
+  -
+  
+  Member:
+    options:
+    rank: '160'
+    prefix: ''
+  permissions:
+  -
+  inheritance:
+  -Visitor
+  
+  Visitor:
+    options:
+    rank: '320'
+    prefix: ''
+  permissions:
+  -
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
